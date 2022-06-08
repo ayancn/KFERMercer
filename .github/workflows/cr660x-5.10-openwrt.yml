@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: CR660x OpenWrt
+name: CR660x 5.10 OpenWrt
 
 on:
   repository_dispatch:
