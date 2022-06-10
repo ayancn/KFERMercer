@@ -12,4 +12,4 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/helloworld/luci-app-ssr-plus/Makefile
+#sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/helloworld/luci-app-ssr-plus/Makefile
