@@ -16,6 +16,6 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
 svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/istore/luci-app-store
 sed -i 's/5.4/5.10/g' target/linux/ramips/Makefile
