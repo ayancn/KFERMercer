@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: CR660x 5.15 OpenWrt
+name: CR660x PS DIY 5.10 OpenWrt
 
 on:
   repository_dispatch:
@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: cr660x.config
-  DIY_P1_SH: diy-part515.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: cr660x-ps-diy.config
+  DIY_P1_SH: diy-part3ps510.sh
+  DIY_P2_SH: diy-part4ps510.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
