@@ -28,3 +28,6 @@ CONFIG_PACKAGE_luci-app-uugamebooster=       UU游戏加速器
 CONFIG_PACKAGE_luci-app-unblockmusic=        网易云解锁灰色
 CONFIG_PACKAGE_luci-app-ramfree=             释放内存
 CONFIG_PACKAGE_block-mount=                  挂载点
+CONFIG_PACKAGE_mt_wifi=                      闭源WIFI驱动
+CONFIG_PACKAGE_kmod-mt7615d
+CONFIG_PACKAGE_luci-app-mtwifi
